@@ -1,0 +1,59 @@
+# Dependency and Build directories
+target/
+build/
+out/
+
+# Maven
+.m2/
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDEs
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# JAR, WAR, EAR files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*~
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
