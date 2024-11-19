@@ -11,7 +11,7 @@ import java.util.List;
 //JpaRepository is a JPA-specific extension of Spring Data's CrudRepository, providing more features like CRUD methods like findAll(),save(), deleteById() findById() and pagination and batch operations.
 //using JPA with help of class like jpaRepository which is part of spring JPA library(inbuilt library) will help in accessing database without SQL code.
 @Repository
-public interface ProductRepo extends JpaRepository<Product, Integer> { //Product: It represents the data model Integer:This specifies that the primary key of Product is of type Integer.
+public interface ProductRepo extends JpaRepository<Product, Integer> { //Product: It represents the data model,  Integer:This specifies that the primary key of Product is of type Integer.
 
     //JpaRepository wont consist some methods useful for our application.
     //Like here we want to filter database based on the keyword.
